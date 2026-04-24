@@ -27,6 +27,7 @@ public class FamilyTree {
             // Add childNode to this node's children list. Also
             // set childNode's parent to this node.
             children.add(childNode);
+            childNode.parent = this;
         }
 
         // Searches subtree at this node for a node
