@@ -1,4 +1,4 @@
-package tree;
+
 import java.io.*;
 import java.util.*;
 import javax.swing.*;
@@ -62,7 +62,7 @@ public class FamilyTree {
             // draw a tree, mark any leaf node, and then mark its ancestors in order from
             // recent to ancient. Expect a question about this on the final exam.
             TreeNode index = this;
-            while (index.parent!= null) {
+            while (index!= null) {
                 ancestors.add(index.parent);
                 index = index.parent;
             }
