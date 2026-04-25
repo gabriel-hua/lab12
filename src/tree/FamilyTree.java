@@ -184,7 +184,7 @@ public class FamilyTree {
         return null;
     }
 
-    public String toString() {
+    public String toString(){
         return "Family Tree:\n\n" + root;
     }
 
